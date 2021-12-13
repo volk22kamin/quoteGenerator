@@ -54,7 +54,7 @@ async function getQuotesFromAPI(){
 
 // tweet the quote
 function tweetQuote(){
-    const twitterURL = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorName.text}`;
+    const twitterURL = `https://twitter.com/intent/tweet?text=${quoteText.textContent} - ${authorName.textContent}`;
     window.open(twitterURL, '_blank');
 }
 
