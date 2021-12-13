@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quote generator</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>hello world</h1>
+    <div class="quoteContainer" id="quoteContainer">
+        <!-- quote element -->
+        <div class="quoteText">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote"> "What are you is what you have been. what you'l be is what you do now</span>
+        </div>
+        <!-- author -->
+        <div class="auoteAuthor">
+            <span id="author">Buddha</span>
+        </div>
+        <!-- buttons -->
+        <div class="buttunContainer">
+            <button class="twitterButton" id="twitter" title="Tweet this!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button class="newQuote">new Quote</button> 
+        </div>
+    </div>
 </body>
 </html>
