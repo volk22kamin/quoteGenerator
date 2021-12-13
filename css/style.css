@@ -28,6 +28,7 @@ body{
 .quoteText{
     font-size: 2.75rem;
 }
+/* if the quote is very long apply this class */
 .longQuote{
     font-size: 2rem;
 }
