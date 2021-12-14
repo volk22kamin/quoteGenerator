@@ -88,6 +88,9 @@ button:active{
 
 /* media query: tablet or smaller */
 @media screen and (max-width: 1000px) {
+    html{
+        font-size: 10px;
+    }
     .quoteContainer{
         margin: auto 10px;
     }
